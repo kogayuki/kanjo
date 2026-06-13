@@ -1,0 +1,205 @@
+{
+  "_note": "Polygon PoS主要アドレス。confidence: high/medium/verify。verify印はPolygonScanで要確認。",
+  "addresses": [
+    {
+      "address": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+      "label": "QuickSwap V2 Router",
+      "category": "DEX",
+      "confidence": "high"
+    },
+    {
+      "address": "0xf5b509bB0909a69B1c207E495f687a596C168E12",
+      "label": "QuickSwap V3 SwapRouter",
+      "category": "DEX",
+      "confidence": "medium"
+    },
+    {
+      "address": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+      "label": "Uniswap V3 SwapRouter",
+      "category": "DEX",
+      "confidence": "high"
+    },
+    {
+      "address": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+      "label": "Uniswap V3 SwapRouter02",
+      "category": "DEX",
+      "confidence": "high"
+    },
+    {
+      "address": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+      "label": "Uniswap Universal Router",
+      "category": "DEX",
+      "confidence": "high"
+    },
+    {
+      "address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+      "label": "SushiSwap Router",
+      "category": "DEX",
+      "confidence": "high"
+    },
+    {
+      "address": "0x1111111254EEB25477B68fb85Ed929f73A960582",
+      "label": "1inch Router V5",
+      "category": "DEX",
+      "confidence": "high"
+    },
+    {
+      "address": "0x111111125421cA6dc452d289314280a0f8842A65",
+      "label": "1inch Router V6",
+      "category": "DEX",
+      "confidence": "medium"
+    },
+    {
+      "address": "0xF0d4c12A5768D806021F80a262B4d39d26C58b8D",
+      "label": "Curve.fi Router",
+      "category": "DEX",
+      "confidence": "medium"
+    },
+    {
+      "address": "0x0000000022D53366457F9d5E68Ec105046FC4383",
+      "label": "Curve.fi Address Provider",
+      "category": "DEX",
+      "confidence": "high"
+    },
+    {
+      "address": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+      "label": "Balancer Vault",
+      "category": "DEX",
+      "confidence": "high"
+    },
+    {
+      "address": "0xDEF171Fe48CF0115B1d80b88dc8eAB59176FEe57",
+      "label": "ParaSwap AugustusSwapper V5",
+      "category": "DEX",
+      "confidence": "medium"
+    },
+    {
+      "address": "0x216B4B4Ba9F3e719726886d34a177484278Bfcae",
+      "label": "ParaSwap TokenTransferProxy",
+      "category": "DEX",
+      "confidence": "medium"
+    },
+    {
+      "address": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+      "label": "Aave V3 Pool",
+      "category": "DeFi",
+      "subcategory": "Lending",
+      "confidence": "high"
+    },
+    {
+      "address": "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb",
+      "label": "Aave V3 PoolAddressesProvider",
+      "category": "DeFi",
+      "subcategory": "Lending",
+      "confidence": "high"
+    },
+    {
+      "address": "0x69FA688f1Dc47d4B5d8029D5a35FB7a548310654",
+      "label": "Aave V3 PoolDataProvider",
+      "category": "DeFi",
+      "subcategory": "Lending",
+      "confidence": "high"
+    },
+    {
+      "address": "0xF25212E676D1F7F89Cd72fFEe66158f541246445",
+      "label": "Compound V3 cUSDCv3",
+      "category": "DeFi",
+      "subcategory": "Lending",
+      "confidence": "medium"
+    },
+    {
+      "address": "0x45A01E4e04F14f7A4a6702c74187c5F6222033cd",
+      "label": "Stargate Router",
+      "category": "Bridge",
+      "confidence": "high",
+      "note": "V2移行で変更の可能性あり"
+    },
+    {
+      "address": "0xA0c68C638235ee32657e8f720a23ceC1bFc77C77",
+      "label": "Polygon PoS Bridge (RootChainManager)",
+      "category": "Bridge",
+      "confidence": "high",
+      "note": "Ethereum側コントラクト"
+    },
+    {
+      "address": "0x40ec5B33f54e0E8A33A975908C5BA1c14e5BbbDf",
+      "label": "Polygon PoS Bridge (ERC20Predicate)",
+      "category": "Bridge",
+      "confidence": "high",
+      "note": "Ethereum側コントラクト"
+    },
+    {
+      "address": "0x00000000006c3852cbEf3e08E8dF289169EdE581",
+      "label": "OpenSea Seaport 1.1",
+      "category": "NFT",
+      "confidence": "high"
+    },
+    {
+      "address": "0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC",
+      "label": "OpenSea Seaport 1.5",
+      "category": "NFT",
+      "confidence": "high"
+    },
+    {
+      "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+      "label": "Circle (Native USDC)",
+      "category": "Stablecoin Issuer",
+      "confidence": "high"
+    },
+    {
+      "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+      "label": "Circle (Bridged USDC.e)",
+      "category": "Stablecoin Issuer",
+      "confidence": "high"
+    },
+    {
+      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "label": "Tether (USDT)",
+      "category": "Stablecoin Issuer",
+      "confidence": "high"
+    },
+    {
+      "address": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+      "label": "JPYC Inc. (JPYC v2)",
+      "category": "Stablecoin Issuer",
+      "confidence": "high"
+    },
+    {
+      "address": "0xB38e8c17e38363aF6EbdCb3dAE12e0243582891D",
+      "label": "Binance Hot Wallet",
+      "category": "CEX",
+      "confidence": "verify",
+      "note": "複数アドレスあり。PolygonScanのExchangeラベルで要確認"
+    },
+    {
+      "address": "0xe0F30cb149fAADC7247E953746Be9BbBB6B5751f",
+      "label": "Binance Hot Wallet 2",
+      "category": "CEX",
+      "confidence": "verify"
+    },
+    {
+      "address": "0x71660c4005BA85c37ccec55d0C4493E66Fe775d3",
+      "label": "Coinbase",
+      "category": "CEX",
+      "confidence": "verify"
+    },
+    {
+      "address": "0x6cC5F688a315f3dC28A7781717a9A798a59fDA7b",
+      "label": "OKX",
+      "category": "CEX",
+      "confidence": "verify"
+    },
+    {
+      "address": "0xf89d7b9c864f589bbF53a82105107622B35EaA40",
+      "label": "Bybit",
+      "category": "CEX",
+      "confidence": "verify"
+    },
+    {
+      "address": "0x6262998Ced04146fA42253a5C0AF90CA02dfd2A3",
+      "label": "Crypto.com",
+      "category": "CEX",
+      "confidence": "verify"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "tokens": [
+    {
+      "address": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+      "symbol": "JPYC",
+      "name": "JPY Coin",
+      "decimals": 18,
+      "type": "stablecoin",
+      "pegged_to": "JPY",
+      "note": "日本円ステーブルコイン（資金移動業版）"
+    },
+    {
+      "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "type": "stablecoin",
+      "pegged_to": "USD",
+      "note": "Circle発行 (Native USDC on Polygon)"
+    },
+    {
+      "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+      "symbol": "USDC.e",
+      "name": "USD Coin (Bridged)",
+      "decimals": 6,
+      "type": "stablecoin",
+      "pegged_to": "USD",
+      "note": "Ethereum からブリッジされた旧USDC"
+    },
+    {
+      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "decimals": 6,
+      "type": "stablecoin",
+      "pegged_to": "USD",
+      "note": "Tether発行"
+    },
+    {
+      "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+      "symbol": "DAI",
+      "name": "Dai Stablecoin",
+      "decimals": 18,
+      "type": "stablecoin",
+      "pegged_to": "USD",
+      "note": "MakerDAO発行の分散型ステーブルコイン"
+    },
+    {
+      "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "type": "wrapped",
+      "pegged_to": "ETH",
+      "note": "Ethereum のラップドトークン"
+    },
+    {
+      "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+      "symbol": "WMATIC",
+      "name": "Wrapped Matic",
+      "decimals": 18,
+      "type": "wrapped",
+      "pegged_to": "MATIC",
+      "note": "Polygon ネイティブトークンのラップ版"
+    },
+    {
+      "address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+      "symbol": "WBTC",
+      "name": "Wrapped BTC",
+      "decimals": 8,
+      "type": "wrapped",
+      "pegged_to": "BTC",
+      "note": "Bitcoin のラップドトークン"
+    },
+    {
+      "address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+      "symbol": "LINK",
+      "name": "ChainLink Token",
+      "decimals": 18,
+      "type": "utility",
+      "pegged_to": null,
+      "note": "Chainlink オラクルトークン"
+    },
+    {
+      "address": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "decimals": 18,
+      "type": "governance",
+      "pegged_to": null,
+      "note": "Uniswap ガバナンストークン"
+    },
+    {
+      "address": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
+      "symbol": "AAVE",
+      "name": "Aave Token",
+      "decimals": 18,
+      "type": "governance",
+      "pegged_to": null,
+      "note": "Aave ガバナンストークン"
+    },
+    {
+      "address": "0x11CD37bb86F65419713f30673A480EA33c826872",
+      "symbol": "GRT",
+      "name": "The Graph",
+      "decimals": 18,
+      "type": "utility",
+      "pegged_to": null,
+      "note": "The Graph プロトコルトークン"
+    }
+  ]
+}
