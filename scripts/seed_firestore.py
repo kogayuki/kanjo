@@ -11,6 +11,7 @@ Requires:
 """
 
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -73,7 +74,8 @@ def main():
         print(f"[ERROR] {tokens_path} not found")
         sys.exit(1)
 
-    db = firestore.Client()
+    project_id = os.environ.get("GOOGLE_CLOUD_PROJECT", "kanjo-500005")
+    db = firestore.Client(project=project_id, database="default")
     print(f"[INFO] Connected to project: {db.project}")
 
     labels_data = load_json(str(labels_path))
