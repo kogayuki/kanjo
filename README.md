@@ -1,6 +1,6 @@
 # Kanjo (勘定)
 
-**Talk to any wallet.** AI analyzes on-chain ERC-20 activity and explains it in plain language.
+**JPYC決済の経費精算を、AIが30秒で。**
 
 Built at [Gemini AI Hackathon @Google Japan](https://luma.com/geminitokyo) (June 27, 2026)
 
@@ -8,17 +8,22 @@ Built at [Gemini AI Hackathon @Google Japan](https://luma.com/geminitokyo) (June
 
 ## Problem
 
-Blockchain explorers show raw transaction data — hex addresses, token IDs, and gas fees. For non-technical users, it's unreadable. **There's no easy way to understand "what happened in this wallet."**
+Companies using JPYC (Japanese Yen stablecoin, 1 JPYC = 1 JPY) for payments have no tool to manage expenses. They manually copy transactions from blockchain explorers into spreadsheets and categorize them by hand. **There is no expense tracker for stablecoin payments.**
 
 ## Solution
 
-Enter any wallet address. Kanjo fetches ERC-20 transfer history from the blockchain, classifies counterparty addresses (DEX, DeFi, CEX, personal transfers), and generates a natural language analysis powered by Gemini.
+Enter a wallet address. Kanjo fetches JPYC transfer history from Polygon, identifies counterparties (DEX, DeFi, businesses, individuals), and automatically classifies each transaction into Japanese accounting categories (勘定科目) — powered by Gemini.
 
 ### Demo
 
-> **Input**: `0x6736...` (Polygon wallet)
+> **Input**: `0x6736...` (Polygon wallet with JPYC activity)
 >
-> **Output**: "This wallet actively trades JPYC and USDC on DEXs. 65% of transactions are swaps on QuickSwap, with a spike in March. The pattern suggests an active DeFi trader."
+> **Output**:
+> | 日付 | 金額 | 取引先 | 勘定科目 |
+> |------|------|--------|---------|
+> | 6/15 | ¥30,000 | QuickSwap | 仕入高 |
+> | 6/14 | ¥5,000 | 個人送金 | 外注費 |
+> | 6/10 | ¥100,000 | Aave V3 | 投資運用 |
 
 ## Architecture
 
@@ -85,11 +90,12 @@ GEMINI_API_KEY=your-gemini-api-key
 
 ## Roadmap
 
-- [x] Hackathon MVP: address input -> static report
-- [ ] Chat UI: talk to any wallet in natural language
-- [ ] Multi-chain: Ethereum, Arbitrum, Injective
-- [ ] Share: post analysis to X
-- [ ] Wallet bookmarks
+- [x] Hackathon MVP: JPYC expense classification
+- [ ] CSV/PDF export for accountants
+- [ ] Multi-stablecoin: USDC, USDT, DAI
+- [ ] Accounting software integration (freee, MoneyForward)
+- [ ] Multi-chain: Ethereum, Arbitrum
+- [ ] Chat UI: ask questions about your expenses
 
 ## Author
 
