@@ -20,7 +20,8 @@ import time
 import urllib.request
 
 JPYC_CONTRACT = "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29"
-POLYGONSCAN_BASE = "https://api.polygonscan.com/api"
+ETHERSCAN_V2_BASE = "https://api.etherscan.io/v2/api"
+CHAIN_ID = "137"  # Polygon PoS
 
 
 def fetch(params: dict) -> dict:
@@ -29,8 +30,9 @@ def fetch(params: dict) -> dict:
         print("[ERROR] POLYGONSCAN_API_KEY not set")
         sys.exit(1)
     params["apikey"] = api_key
+    params["chainid"] = CHAIN_ID
     query = "&".join(f"{k}={v}" for k, v in params.items())
-    url = f"{POLYGONSCAN_BASE}?{query}"
+    url = f"{ETHERSCAN_V2_BASE}?{query}"
     with urllib.request.urlopen(url) as resp:
         return json.loads(resp.read().decode())
 

@@ -1,0 +1,204 @@
+[
+  {
+    "address": "0xc590175e458b83680867afd273527ff58f74c02b",
+    "jpyc_tx_count": 35,
+    "total_erc20_tx": 200,
+    "unique_tokens": 28,
+    "tokens": [
+      "$DEZ",
+      "AVE",
+      "BET",
+      "BRIL",
+      "BTNM",
+      "CPR",
+      "DOLZ",
+      "FELY",
+      "GGT",
+      "GMT",
+      "GRT",
+      "IDL",
+      "JPYC",
+      "MANA",
+      "MSQ",
+      "MV",
+      "MYST",
+      "SDX",
+      "SUT",
+      "USDC",
+      "USDC.e",
+      "USDT0",
+      "UVM",
+      "VOXEL",
+      "WETH",
+      "XAUt0",
+      "XSGD",
+      "pUSD"
+    ]
+  },
+  {
+    "address": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
+    "jpyc_tx_count": 65,
+    "total_erc20_tx": 200,
+    "unique_tokens": 19,
+    "tokens": [
+      "$DEZ",
+      "ANKR",
+      "ASK",
+      "BTX",
+      "CES",
+      "DAI",
+      "FELY",
+      "MSQ",
+      "RMV",
+      "SUT",
+      "TEL",
+      "USDC",
+      "USDC.e",
+      "USDT0",
+      "WETH",
+      "WPOL",
+      "XSGD",
+      "pUSD",
+      "stMATIC"
+    ]
+  },
+  {
+    "address": "0x67366782805870060151383f4bbff9dab53e5cd6",
+    "jpyc_tx_count": 337,
+    "total_erc20_tx": 200,
+    "unique_tokens": 17,
+    "tokens": [
+      "AIPF",
+      "BTX",
+      "DAI",
+      "JPYC",
+      "LGNS",
+      "LINK",
+      "PAXG",
+      "SAND",
+      "TOPH",
+      "USDC",
+      "USDC.e",
+      "USDT0",
+      "VOXEL",
+      "WETH",
+      "WPOL",
+      "pUSD",
+      "sLGNS"
+    ]
+  },
+  {
+    "address": "0x7f51c134230eb9e5aba42bc364d3d3eba26d9712",
+    "jpyc_tx_count": 97,
+    "total_erc20_tx": 200,
+    "unique_tokens": 16,
+    "tokens": [
+      "AIPF",
+      "BAL",
+      "DAI",
+      "EFI",
+      "JPYC",
+      "LGNS",
+      "MSQ",
+      "THAT",
+      "UNCN",
+      "USDC",
+      "USDC.e",
+      "USDT0",
+      "WBTC",
+      "WETH",
+      "WPOL",
+      "sLGNS"
+    ]
+  },
+  {
+    "address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+    "jpyc_tx_count": 77,
+    "total_erc20_tx": 200,
+    "unique_tokens": 15,
+    "tokens": [
+      "BRZ",
+      "BUSD",
+      "DAI",
+      "FLOWER",
+      "JPYC",
+      "MYST",
+      "USDC",
+      "USDC.e",
+      "USDT0",
+      "VCNT",
+      "WBTC",
+      "WETH",
+      "WPOL",
+      "pUSD",
+      "sLGNS"
+    ]
+  },
+  {
+    "address": "0x09ad820aac5779683b481c4674208a4e1b024afa",
+    "jpyc_tx_count": 78,
+    "total_erc20_tx": 200,
+    "unique_tokens": 11,
+    "tokens": [
+      "AIPF",
+      "CRV",
+      "DAI",
+      "JPYC",
+      "LINK",
+      "USDC",
+      "USDC.e",
+      "USDT0",
+      "WBTC",
+      "WETH",
+      "WPOL"
+    ]
+  },
+  {
+    "address": "0x7150ea07d00d8e5a46bcc809f1c9fdf5cb5f8e81",
+    "jpyc_tx_count": 69,
+    "total_erc20_tx": 200,
+    "unique_tokens": 11,
+    "tokens": [
+      "BTX",
+      "CES",
+      "DAI",
+      "GEOD",
+      "SUT",
+      "USDC",
+      "USDC.e",
+      "USDT0",
+      "WBTC",
+      "WETH",
+      "WPOL"
+    ]
+  },
+  {
+    "address": "0xbda506776accb792a20ae1464edbf009d912d4fe",
+    "jpyc_tx_count": 51,
+    "total_erc20_tx": 200,
+    "unique_tokens": 2,
+    "tokens": [
+      "JPYC",
+      "USDC.e"
+    ]
+  },
+  {
+    "address": "0xb808af91bdc577bfb3f9c91470f3286dd076e5c1",
+    "jpyc_tx_count": 33,
+    "total_erc20_tx": 200,
+    "unique_tokens": 2,
+    "tokens": [
+      "JPYC",
+      "\ua4d10\u216c"
+    ]
+  },
+  {
+    "address": "0x8549e82239a88f463ab6e55ad1895b629a00def3",
+    "jpyc_tx_count": 75,
+    "total_erc20_tx": 200,
+    "unique_tokens": 1,
+    "tokens": [
+      "JPYC"
+    ]
+  }
+]

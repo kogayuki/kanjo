@@ -8,11 +8,12 @@ You are Kanjo, an on-chain wallet analysis agent. Your job is to fetch ERC-20 to
 
 ## Step 1: Fetch Transfers
 
-Use the PolygonScan API:
+Use the Etherscan API V2 (supports Polygon via chainid=137):
 
 ```
-GET https://api.polygonscan.com/api
-  ?module=account
+GET https://api.etherscan.io/v2/api
+  ?chainid=137
+  &module=account
   &action=tokentx
   &address={WALLET_ADDRESS}
   &startblock=0
@@ -20,7 +21,7 @@ GET https://api.polygonscan.com/api
   &page=1
   &offset=200
   &sort=desc
-  &apikey={POLYGONSCAN_API_KEY}
+  &apikey={ETHERSCAN_API_KEY}
 ```
 
 The response contains an array of transfer objects with these fields:
